@@ -1,0 +1,47 @@
+@font-face {
+    font-family: head;
+    src: url(static\MartianMono_SemiExpanded-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+}
+
+header{
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-size: 10px;
+}
+
+nav{
+    display: flex;
+   margin-left: 20px;
+   padding-top: 20px; 
+}
+.logo{
+    padding-right: 50px;
+}
+ul {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 60%;
+    height: 60%;
+    font-size: 10px;
+    color: green;
+}
